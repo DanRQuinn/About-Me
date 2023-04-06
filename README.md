@@ -8,9 +8,8 @@ This is a about Dan website with a quiz at the beginning.
 
 ### Links and Resources
 
-* [lighthouse Score](img/Lighthouse-lab-2.png)
+![lighthouse Score](img/Lighthouse-lab-2.png)
 * [Class GitHub](https://github.com/codefellows/seattle-code-201d99)
-
 
 ### Lighthouse Accessibility Report Score
 
