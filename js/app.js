@@ -134,15 +134,15 @@ while(guess >= 1){
 // ARRAYS
 let attempts = 6;
 
-let mouseAlbums = ['We Were Dead Before the Ship Even Sank', 'Good News for People Who Love Bad News', 'The Lonesome Crowded West'];
+let mouseAlbums = ['we were dead before the ship even sank', 'Good News for People Who Love Bad News', 'The Lonesome Crowded West'];
 
 let correct = false;
 
 while (attempts >= 1 && !correct) {
   attempts--;
-  let mouseAnswer = prompt('What is one of my favorite Modest Mouse albums?');
+  let mouseAnswer = prompt('What is one of my favorite Modest Mouse albums?').toLowerCase;
   for (let i = 0; i < mouseAlbums.length; i++) {
-    if (mouseAnswer === mouseAlbums[i]) {
+    if (mouseAnswer === mouseAlbums[i].toLowerCase()) {
       alert('Correct! I love that album!');
       userPoints++;
       correct = true;
