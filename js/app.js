@@ -38,43 +38,47 @@ musicQ();
 
 // DANS DOG
 
-function dogQ(){
-let dansDog = prompt('Does Dan Have 1 dog? Yes or No?').toLowerCase();
+function dogQ() {
+  let dansDog = prompt('Does Dan Have 1 dog? Yes or No?').toLowerCase();
 
-// console.log(dansDog);
+  // console.log(dansDog);
 
-if (dansDog === 'no') {
-  // console.log('Correct! He has two dogs, Beau and Tux!');
-  alert('Correct! He has two dogs, Beau and Tux!');
-  userPoints++;
-} else if (dansDog === 'yes') {
-  // console.log('Wrong! Everyone knows Tux but Beau still exists!');
-  alert('Wrong! Everyone knows Tux but Beau still exists!');
-} else {
-  // console.log();('Please use Yes or No answers!');
-  alert('Please use Yes or No answers!');
+  if (dansDog === 'no') {
+    // console.log('Correct! He has two dogs, Beau and Tux!');
+    alert('Correct! He has two dogs, Beau and Tux!');
+    userPoints++;
+  } else if (dansDog === 'yes') {
+    // console.log('Wrong! Everyone knows Tux but Beau still exists!');
+    alert('Wrong! Everyone knows Tux but Beau still exists!');
+  } else {
+    // console.log();('Please use Yes or No answers!');
+    alert('Please use Yes or No answers!');
+  }
 }
-}
 
-dogQ ();
+dogQ();
 
 // // DANS SPORT
 
-// let dansSport = prompt('Is football Dans favorite sport? Yes or No?').toLowerCase();
+function sportQ() {
+  let dansSport = prompt('Is football Dans favorite sport? Yes or No?').toLowerCase();
 
-// console.log(dansSport);
+  console.log(dansSport);
 
-// if (dansSport === 'no') {
-//   // console.log('Correct! Dan has and always will love hockey!');
-//   alert('Correct! Dan has and always will love hockey!');
-//   userPoints++;
-// } else if (dansSport === 'yes') {
-//   // console.log('Wrong! There are better sports...like hockey.');
-//   alert('Wrong! There are better sports...like hockey.');
-// } else {
-//   // console.log('Please use Yes or No answers!');
-//   alert('Please use Yes or No answers!');
-// }
+  if (dansSport === 'no') {
+    // console.log('Correct! Dan has and always will love hockey!');
+    alert('Correct! Dan has and always will love hockey!');
+    userPoints++;
+  } else if (dansSport === 'yes') {
+    // console.log('Wrong! There are better sports...like hockey.');
+    alert('Wrong! There are better sports...like hockey.');
+  } else {
+    // console.log('Please use Yes or No answers!');
+    alert('Please use Yes or No answers!');
+  }
+}
+
+sportQ();
 
 // // // DANS SPOUSE
 
