@@ -124,61 +124,71 @@ function foodQ() {
 foodQ();
 
 // // DANS AGE
-// // TOO HIGH TOO LOW loops
-// let guess = 4;
+// TOO HIGH TOO LOW loops
 
-// while (guess >= 1) {
-//   guess--;
-//   console.log(guess);
-//   let dansAge = parseInt(prompt('What is Dans age?'));
-//   console.log(dansAge, 29);
-//   console.log(typeof dansAge);
-//   if (dansAge >= 30) {
-//     alert('There is no way I am that old! Try again!');
-//   } if (dansAge <= 28) {
-//     alert('Too low! Try again!');
-//   } if (dansAge === 29) {
-//     alert('Correct! I am 29!');
-//     userPoints++;
-//     break;
-//   } if (guess === 1 && dansAge !== 29) {
-//     alert('You are out of guesses, the correct answer is 29!');
-//     break;
-//   }
-// }
+function ageQ() {
+  let guess = 4;
+
+  while (guess >= 1) {
+    guess--;
+    console.log(guess);
+    let dansAge = parseInt(prompt('What is Dans age?'));
+    console.log(dansAge, 29);
+    console.log(typeof dansAge);
+    if (dansAge >= 30) {
+      alert('There is no way I am that old! Try again!');
+    } if (dansAge <= 28) {
+      alert('Too low! Try again!');
+    } if (dansAge === 29) {
+      alert('Correct! I am 29!');
+      userPoints++;
+      break;
+    } if (guess === 1 && dansAge !== 29) {
+      alert('You are out of guesses, the correct answer is 29!');
+      break;
+    }
+  }
+}
+
+ageQ();
 
 
 
 // // MULIPLE CORRECT ANSWERS
 // // ARRAYS
-// let attempts = 6;
 
-// let mouseAlbums = ['We Were Dead Before the Ship Even Sank', 'Good News for People Who Love Bad News', 'The Lonesome Crowded West'];
+function mouseQ() {
+  let attempts = 6;
 
-// let correct = false;
+  let mouseAlbums = ['We Were Dead Before the Ship Even Sank', 'Good News for People Who Love Bad News', 'The Lonesome Crowded West'];
 
-// while (attempts >= 1 && !correct) {
-//   attempts--;
-//   let mouseAnswer = prompt('What is one of my favorite Modest Mouse albums?');
-//   for (let i = 0; i < mouseAlbums.length; i++) {
-//     if (mouseAnswer === mouseAlbums[i]) {
-//       alert('Correct! I love that album!');
-//       userPoints++;
-//       correct = true;
-//       break;
-//     }
-//   }
-//   if (attempts === 1) {
-//     alert('You are out of guesses!');
-//     break;
-//   }
-//   if (!correct) {
-//     alert('Incorrect try again!');
-//   }
-// }
+  let correct = false;
+
+  while (attempts >= 1 && !correct) {
+    attempts--;
+    let mouseAnswer = prompt('What is one of my favorite Modest Mouse albums?');
+    for (let i = 0; i < mouseAlbums.length; i++) {
+      if (mouseAnswer === mouseAlbums[i]) {
+        alert('Correct! I love that album!');
+        userPoints++;
+        correct = true;
+        break;
+      }
+    }
+    if (attempts === 1) {
+      alert('You are out of guesses!');
+      break;
+    }
+    if (!correct) {
+      alert('Incorrect try again!');
+    }
+  }
+}
+
+mouseQ();
 
 // // THANKS AND FAREWELL
 
-// alert('You\'re score was ' + userPoints + '/7!');
+alert('You\'re score was ' + userPoints + '/7!');
 
-// alert('Thanks ' + userName + '! I hope the quiz wasn\'t too hard!');
+alert('Thanks ' + userName + '! I hope the quiz wasn\'t too hard!');
