@@ -80,24 +80,27 @@ function sportQ() {
 
 sportQ();
 
-// // // DANS SPOUSE
+// // DANS SPOUSE
 
-// let dansSpouse = prompt('Is Dan married? Yes or No?').toLowerCase();
+function spouseQ(){
+let dansSpouse = prompt('Is Dan married? Yes or No?').toLowerCase();
 
-// console.log(dansSpouse);
+console.log(dansSpouse);
 
-// if (dansSpouse === 'no') {
-//   // console.log('Correct! Hes happily engaged waiting to set a date!');
-//   alert('Correct! Hes happily engaged waiting to set a date!');
-//   userPoints++;
-// } else if (dansSpouse === 'yes') {
-//   // console.log('Wrong! He is only engaged.');
-//   alert('Wrong! He is only engaged.');
-// } else {
-//   // console.log('Please use Yes or No answers!');
-//   alert('Please use Yes or No answers!');
-// }
+if (dansSpouse === 'no') {
+  // console.log('Correct! Hes happily engaged waiting to set a date!');
+  alert('Correct! Hes happily engaged waiting to set a date!');
+  userPoints++;
+} else if (dansSpouse === 'yes') {
+  // console.log('Wrong! He is only engaged.');
+  alert('Wrong! He is only engaged.');
+} else {
+  // console.log('Please use Yes or No answers!');
+  alert('Please use Yes or No answers!');
+}
+}
 
+spouseQ();
 // // // DANS FOOD
 
 // let dansFood = prompt('Is Dans favorite food filipino food? Yes or No?').toLowerCase();
