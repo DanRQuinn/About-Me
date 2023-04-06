@@ -6,6 +6,10 @@ This is a about Dan website with a quiz at the beginning.
 
 ### Author: Dan Quinn
 
+#### Lab04:
+- Tiffani was the driver.
+- Dan was the navigator.
+
 ### Links and Resources
 
 ![lighthouse Score lab 2](img/Lighthouse-lab-2.png)
